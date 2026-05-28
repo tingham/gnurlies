@@ -1,6 +1,6 @@
 {
   "name": "gnurlies",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Markdown-it plugin for gnurlies — Questache and Attaché inline AI collaboration syntax",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

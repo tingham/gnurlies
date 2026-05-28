@@ -1,0 +1,32 @@
+[project]
+name = "gnurlies"
+version = "0.1.0"
+description = "Python-Markdown extension for gnurlies — Questache and Attaché inline AI collaboration syntax"
+readme = "README.md"
+authors = [
+    { name = "Thomas Ingham", email = "tingham@mac.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["markdown", "plugin", "questache", "attache", "gnurlies", "ai", "collaboration"]
+dependencies = [
+    "markdown>=3.0",
+]
+
+[project.urls]
+Repository = "https://github.com/tingham/gnurlies"
+
+[project.entry-points."markdown.extensions"]
+gnurlies = "gnurlies:GnurliesExtension"
+
+[build-system]
+requires = ["uv_build>=0.11.12,<0.12.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+]

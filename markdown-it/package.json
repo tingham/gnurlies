@@ -11,6 +11,7 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "readme": "../README.md",
   "files": [
     "dist"
   ],

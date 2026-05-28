@@ -183,7 +183,7 @@ The syntax itself was named using a questache:
 
 Questache is a convention, not a specification. It requires no parser, no tooling, and no plugin — only an AI collaborator that knows to look for it. Any document format that supports freeform text can host a questache.
 
-It is, however, highly ["markdown-able"](github.com/tingham/gnurlies)
+It is, however, highly ["markdown-able"](https://github.com/tingham/gnurlies)
 
 This whitepaper describes version 0.1. Extensions (typed questaches, nested hints, multi-line questaches) are left for future revision.
 

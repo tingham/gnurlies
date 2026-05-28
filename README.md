@@ -1,4 +1,4 @@
-# Questache: An Inline Naming Convention for Human–AI Document Collaboration
+# Gnurlies: An Inline Naming Convention for Human–AI Document Collaboration
 
 **Version:** 0.1  
 **Date:** 2026-05-28  
